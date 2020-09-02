@@ -1,20 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_contacts/ui/home_page.dart';
 
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: new App(),
+    home: new HomePage(),
   ));
-}
-
-class App extends StatefulWidget {
-  @override
-  _AppState createState() => _AppState();
-}
-
-class _AppState extends State<App> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
 }
